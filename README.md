@@ -1,9 +1,15 @@
 TODO
 ====
 
+## The whole system
+
+#### possibility for static analysis
+
+eg. checkstyle that would enforce some stylistical issues such as indentation or method length
+
 ## TMC-server
 
-### Documets
+#### Documets
 
 #### Support for multiple configurations in one repo
 
@@ -18,3 +24,4 @@ Support markdown, redcarpet?
 
 ## TMC-Client
 #### Add support for downloading latest submissions
+
