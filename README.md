@@ -5,10 +5,10 @@ TODO
 
 ### Documets
 
-## #Support for multiple configurations in one repo
+#### Support for multiple configurations in one repo
 
-### Enhance course notifier
+#### Enhance course notifier
 Support markdown, redcarpet?
 
 ## TMC-Client
-###Add support for downloading latest submissions
+#### Add support for downloading latest submissions
