@@ -23,5 +23,11 @@ Instead specified in configuration file
 Support markdown, redcarpet?
 
 ## TMC-Client
+
+#### Test
+run exercise tests for various project types
+* ant test
+* mvn test
+* .universal/controls/test
 #### Add support for downloading latest submissions
 
