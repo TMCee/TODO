@@ -1,0 +1,52 @@
+### Palvelin ###
+
+- universal-supportti
+  - copy-paste -helvetti
+  - halutaan esim. "tähän kurssiin git submodulena tämän kielen tuki tuosta reposta"
+  - course refreshin skriptattavien osien sandboxaus?
+  - siirretään toiseen branchiin?
+
+
+- rename src-min to 'ace' or something reasonable
+
+- pastenäkymä:
+  - tabit näyttämään enemmän tabeilta
+  - tabeille klikkauskäsikursori
+  - sama testeille
+  - kommenttikenttä ja send-nappi nätimmin
+  - kommenttikenttä isommaksi
+
+
+- harkitse urlin muutosta
+  http://tmc.jamo.fi/exercises/142.json
+  =>
+  http://tmc.jamo.fi/exercises/142/submissions.json
+
+- acts_as_api yhdenmukaisesti käyttöön kaikkialla
+
+- rake [re]compile ja clean ctestrunnerille
+
+- selvitä lib/submission_packager/makefile_c.rb:n viittaus junit runneriin ja
+  junit runnerin tmcee-sotkut
+
+- rename test_case_runs.backtrace -> test_case_runs.detailed_message tms
+
+- pastessa virheen näyttäminen paremmaksi
+  - ehkä ei modaali
+  - ei ainakaan fixed size modaali
+
+- siirrä TMCeeTestRunner testmycode-organisaatioon ja nimeä se uudelleen c-test-runner tms
+
+- siirrä tmc-c-course-template testmycode-organisaatioon
+
+- siisti ja integroi päärepoon https://github.com/TMCee/Documentation/blob/master/asennus.md
+  
+### NB-plugin ###
+
+- nimentä: backtrace -> detailed_message tms NB:n tulosnäkymässä
+
+- siivoa RunTestsLocallyAction
+
+- request review ja pastebin -dialogien sijainti
+
+- pastebin-urlille copy to clipboard -nappi
