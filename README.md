@@ -32,3 +32,5 @@ run exercise tests for various project types
 
 #### Add support for downloading latest submissions
 
+## TMC-netbeans
+Include useful debugging info to all paste submits; os, java version and language. Only administrators should be able to view this debugging information
